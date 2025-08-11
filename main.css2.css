@@ -1,0 +1,86 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #801717;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #1276b4;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 2.5em;
+}
+
+/* Estilo das seções */
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos títulos das seções */
+h2 {
+    color: #35424a;
+    margin-bottom: 15px;
+}
+
+/* Estilo dos artigos */
+article {
+    margin-bottom: 30px;
+}
+
+/* Estilo das imagens */
+figure {
+    margin: 0;
+    
+}
+
+/* Estilo das legendas das imagens */
+figcaption {
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+}
+
+/* Estilo do conteúdo das notícias */
+.news-content {
+    padding: 10px;
+}
+
+/* Estilo dos títulos das notícias */
+h3 {
+    color: #35424a;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin-bottom: 10px;
+}
+
+/* Estilo para links (se houver) */
+a {
+    color: #35424a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
